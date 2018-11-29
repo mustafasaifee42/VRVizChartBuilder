@@ -1,0 +1,306 @@
+{
+  "Bar_Graph":{
+    "attributeRequired":[
+      {
+        "title":"X Axis",
+        "required": true,
+        "description":""
+      },
+      {
+        "title":"Z Axis",
+        "required": true,
+        "description":""
+      },
+      {
+        "title":"Height",
+        "required": true,
+        "description":""
+      },
+      {
+        "title":"Colour",
+        "required": false,
+        "description":""
+      }
+    ],
+    "designFeatures":[
+      {
+        "title":"Width",
+        "required": true,
+        "type":"TextField",
+        "defaultValue":10,
+        "relatedTo":null,
+        "description":""
+      },
+      {
+        "title":"Depth",
+        "required": true,
+        "type":"TextField",
+        "defaultValue":10,
+        "relatedTo":null,
+        "description":""
+      },
+      {
+        "title":"Height",
+        "required": true,
+        "type":"TextField",
+        "defaultValue":10,
+        "relatedTo":null,
+        "description":""
+      },
+      {
+        "title":"Background Colour",
+        "required": true,
+        "type":"ColourPicker",
+        "relatedTo":null,
+        "defaultValue":"#212121",
+        "description":""
+      },
+      {
+        "title":"Mark Colour",
+        "required": true,
+        "type":"ColourPicker",
+        "relatedTo":"Colour",
+        "defaultValue":"#212121",
+        "description":""
+      },
+      {
+        "title":"Mark Opacity",
+        "required": true,
+        "type":"TextField",
+        "defaultValue":1,
+        "relatedTo":null,
+        "description":""
+      }
+    ]
+  },
+  "Lollipop_Chart":{
+    "attributerRequired":[
+      {
+        "title":"X Axis",
+        "required": true,
+        "description":""
+      },
+      {
+        "title":"Y Axis",
+        "required": true,
+        "description":""
+      },
+      {
+        "title":"Z Axis",
+        "required": true,
+        "description":""
+      },
+      {
+        "title":"Colour",
+        "required": false,
+        "description":""
+      }
+    ],
+    "designFeatures":["Width","Height","Depth","","Marks type"]
+  },
+  "Rectangle_Chart":{
+    "attributerRequired":[
+      {
+        "title":"X Axis",
+        "required": true,
+        "description":""
+      },
+      {
+        "title":"Depth",
+        "required": true,
+        "description":""
+      },
+      {
+        "title":"Height",
+        "required": true,
+        "description":""
+      },
+      {
+        "title":"Colour",
+        "required": false,
+        "description":""
+      }
+    ],
+    "designFeatures":["Width","Height","Depth","","Marks type"]
+  },
+  "Scatter_Plot":{
+    "attributerRequired":[
+      {
+        "title":"X Axis",
+        "required": true,
+        "description":""
+      },
+      {
+        "title":"Y Axis",
+        "required": true,
+        "description":""
+      },
+      {
+        "title":"Z Axis",
+        "required": true,
+        "description":""
+      },
+      {
+        "title":"Colour",
+        "required": false,
+        "description":""
+      }
+    ],
+    "designFeatures":["Width","Height","Depth","","Marks type"]
+  },
+  "Bubble_Chart":{
+    "attributerRequired":[
+      {
+        "title":"X Axis",
+        "required": true,
+        "description":""
+      },
+      {
+        "title":"Y Axis",
+        "required": true,
+        "description":""
+      },
+      {
+        "title":"Z Axis",
+        "required": true,
+        "description":""
+      },
+      {
+        "title":"Radius",
+        "required": true,
+        "description":""
+      },
+      {
+        "title":"Colour",
+        "required": false,
+        "description":""
+      }
+    ],
+    "designFeatures":["Width","Height","Depth","","Marks type"]
+  },
+  "Connected_Scatter_Plot":{
+    "attributerRequired":[
+      {
+        "title":"X Axis",
+        "required": true,
+        "description":""
+      },
+      {
+        "title":"Y Axis",
+        "required": true,
+        "description":""
+      },
+      {
+        "title":"Z Axis",
+        "required": true,
+        "description":""
+      },
+      {
+        "title":"Sequence",
+        "required": true,
+        "description":""
+      },
+      {
+        "title":"Radius",
+        "required": false,
+        "description":""
+      },
+      {
+        "title":"Colour",
+        "required": false,
+        "description":""
+      }
+    ],
+    "designFeatures":["Width","Height","Depth","","Marks type"]
+  },
+  "Mesh_Plot":{
+    "attributerRequired":[
+      {
+        "title":"X Axis",
+        "required": true,
+        "description":""
+      },
+      {
+        "title":"Y Axis",
+        "required": true,
+        "description":""
+      },
+      {
+        "title":"Z Axis",
+        "required": true,
+        "description":""
+      },
+      {
+        "title":"Colour",
+        "required": false,
+        "description":""
+      }
+    ],
+    "designFeatures":["Width","Height","Depth","","Marks type"]
+  },
+  "Waterfall_Plot":{
+    "attributerRequired":[
+      {
+        "title":"X Axis",
+        "required": true,
+        "description":""
+      },
+      {
+        "title":"Y Axis",
+        "required": true,
+        "description":""
+      },
+      {
+        "title":"Z Axis",
+        "required": true,
+        "description":""
+      }
+    ],
+    "designFeatures":["Width","Height","Depth","","Marks type"]
+  },
+  "Contour_Plot":{
+    "attributerRequired":[
+      {
+        "title":"X Axis",
+        "required": true,
+        "description":""
+      },
+      {
+        "title":"Y Axis",
+        "required": true,
+        "description":""
+      },
+      {
+        "title":"Z Axis",
+        "required": true,
+        "description":""
+      },
+      {
+        "title":"Sequence",
+        "required": true,
+        "description":""
+      }
+    ],
+    "designFeatures":["Width","Height","Depth","","Marks type"]
+  },
+  "Time_Series":{
+    "attributerRequired":[
+      {
+        "title":"X Axis",
+        "required": true,
+        "description":""
+      },
+      {
+        "title":"Y Axis",
+        "required": true,
+        "description":""
+      },
+      {
+        "title":"Z Axis",
+        "required": true,
+        "description":""
+      }
+    ],
+    "designFeatures":["Width","Height","Depth","","Marks type"]
+  }
+}

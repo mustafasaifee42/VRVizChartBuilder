@@ -1,0 +1,21 @@
+.graphChooser{
+  width: 23%;
+  padding: 2rem 0;
+  font-size: 1.8rem;
+  border-radius: 4px;
+  margin:0 2rem 2rem 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+.inactive{
+  background-color: #fff;
+  color: #333;
+}
+
+
+.active{
+  background-color: #32CDDA;
+  color: #fff;
+  font-weight: 700;
+}

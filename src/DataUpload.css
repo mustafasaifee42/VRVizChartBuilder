@@ -1,0 +1,37 @@
+.main{
+  display: flex;
+  justify-content:space-between;
+}
+.left{
+  width: 20%;
+}
+
+.uploadLabel{
+  color: #aaa;
+  margin-bottom: 1.5rem;
+}
+
+.right{
+  width:75%;
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 5rem;
+}
+
+input[type="file"] {
+  display: none;
+}
+label {
+  border: 1px solid #ccc;
+  border-radius: 2rem;
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  color: white;
+  background-color: #666;
+}
+
+label:hover{
+  background-color: #333;
+
+}

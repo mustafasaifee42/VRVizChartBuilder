@@ -1,0 +1,30 @@
+.configurationCards{
+  background-color:#fff;
+  width: 30%;
+  border: #aaa;
+  margin:0 2rem 2rem 0;
+  font-weight: 700;
+}
+
+.cardContainer{
+	padding:2rem;
+}
+.cardContainerDropDown{
+	padding:0 2rem 2rem 2rem;
+}
+
+.colorPickerDiv{
+	margin-top:2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.colorPickerTitle{
+	font-weight: 400;
+	width: 10rem;
+}
+
+.colorPickerMain{
+	margin-top:2rem;
+}
